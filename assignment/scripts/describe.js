@@ -75,7 +75,7 @@ console.log(secret)
 // We check if the value of isStudent is identical to the boolean true and if zip is greater than the number 80000 (it is not), therefore
 //we then check if isStudent is false or age is less than 30 (it is not), therefore we then if isStudent is identical to true (it is)
 //therefore we console.log 'Welcome to Prime!'
-
+Pret
 //CODE
 /*
 let isStudent = true;
@@ -130,11 +130,13 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//Fix - 'red' and 'blue' are associated with teh wrong variables colorOne= 'blue' colorTwo= 'red'
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// Fix - both colorOne and colorTwo need to be changed to 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -145,9 +147,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//Fix- time is currently a constant, change to let time= 4
 let temp = 40;
 const time = 4;
 
+//Fix- currently checking if temp>39 or time >= 4 replace || with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,9 +162,12 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+//Fix - minAge is currently a constant, change to let minAge = 21 
 let age = 21;
 const minAge = 21;
 
+//Fix- currently the if statement will produce console.log 'no entry', change to console.log 'enter' and change the else statement to 
+//output console.log 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {
