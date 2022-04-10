@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We create a variable called name with the value of the string 'Dane'
+// We check if name is equal to the string 'Mary'. It is not so console.log "How do you do?"
 // 
 //
 
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called secret, then create a variable called code which has the value of the number 123
+// We check if code is identical to the number 123, it is therefore we set the value of secret to the string 'Super' and multiply the value of code by 2
+// Next we check if the value of code is greater than the number 250, it is not so we console.log 'Super'
 //
 
 //CODE
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the variable isStudent with the value of the boolean true, create the variable age with the value of the number 34,
+// and the variable zip with the value of the number 55407
+// We check if the value of isStudent is identical to the boolean true and if zip is greater than the number 80000 (it is not), therefore
+//we then check if isStudent is false or age is less than 30 (it is not), therefore we then if isStudent is identical to true (it is)
+//therefore we console.log 'Welcome to Prime!'
 
 //CODE
 /*
